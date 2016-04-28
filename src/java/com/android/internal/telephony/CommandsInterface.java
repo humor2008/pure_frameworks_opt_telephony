@@ -2015,12 +2015,6 @@ public interface CommandsInterface {
     public void getModemActivityInfo(Message result);
 
     /**
-     * Request to update the current local call hold state.
-     * @param lchStatus, true if call is in lch state
-     */
-    public void setLocalCallHold(boolean lchStatus);
-
-    /**
      * @hide
      * CM-specific: Ask the RIL about the presence of back-compat flags
      */
